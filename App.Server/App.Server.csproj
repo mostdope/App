@@ -44,9 +44,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Interfaces\ILogger.cs" />
     <Compile Include="Core\Startup.cs" />
     <Compile Include="Data\DataContext.cs" />
     <Compile Include="Host\Application.cs" />
+    <Compile Include="Logger\ConsoleLogger.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\PlotDataService.cs" />

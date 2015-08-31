@@ -22,7 +22,7 @@ namespace WPFAppClient.Views
     /// </summary>
     public partial class ResultDataView : UserControl
     {
-        public ResultDataView()
+        public ResultDataView() : this(new ResultDataViewModel())
         {
             InitializeComponent();
 	        
